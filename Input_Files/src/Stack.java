@@ -13,7 +13,7 @@ import java.nio.BufferOverflowException;
  * @author Boshika Tara
  */
 
-public abstract class Stack implements ADT{
+public class Stack implements ADT{
     private final int max_size = 100;
     private String[] data = new String[max_size];
     private int top = -1;    //empty stack
