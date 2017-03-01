@@ -47,7 +47,7 @@ public class PostFixEval {
             try {
                 while ((line = br.readLine()) != null) {
                     lineCounter++;
-                    System.out.println("############# line " + lineCounter +
+                    System.out.println("############# line " + lineCounter + '\n'
                             "############found Postfix expression: " + line);
 
                     try {
