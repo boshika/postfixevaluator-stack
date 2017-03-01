@@ -208,6 +208,10 @@ Bad: Unrecognized characterr: 0 at position: 2
 
 ```
 
+### Efficiency and Cost Analysis
+
+The implementation ties in with the stack implementation. Insertions and deletions are always done at one end of the stack, so the cost of the operation is O(1). The complexity to evaluate a postfix expression overall is O(n), since all of this is done in a linear way, in one single loop.
+
 
 
 
